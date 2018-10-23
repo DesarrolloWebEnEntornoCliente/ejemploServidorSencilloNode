@@ -1,0 +1,22 @@
+{
+  "name": "servidor-ligero-node",
+  "version": "1.0.0",
+  "description": "Servidor ligero para dwec",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "lint": "jshint js/utilidades.js"
+  },
+  "author": "carlos tessier",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jshint": "^2.9.6",
+    "chai": "*",
+    "mocha": "*",
+    "serve-static": "^1.13.2"
+  }
+}
