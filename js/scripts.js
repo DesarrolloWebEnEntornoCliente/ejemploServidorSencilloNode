@@ -1,4 +1,4 @@
-import { recortar } from './utilidades.js';
+import { recortar } from './modulo-utilidades.js';
 
 //import { sayHelloInEnglish, sayHelloInSpanish } from './mi-modulo.js';
 //alert(sayHelloInEnglish());

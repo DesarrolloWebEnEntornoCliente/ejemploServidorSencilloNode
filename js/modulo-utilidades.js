@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* Esta función  elimina los espacios duplicados de una cadena de caracteres*/
 function recortar(string) {
@@ -8,3 +8,8 @@ function recortar(string) {
 }
 
 
+// para index.html
+export { recortar };
+
+//para mocha
+//module.exports = recortar;

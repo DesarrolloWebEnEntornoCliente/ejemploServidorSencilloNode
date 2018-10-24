@@ -8,8 +8,5 @@ function recortar(string) {
 }
 
 
-// para index.html
-//export { recortar };
-
 //para mocha
 module.exports = recortar;
