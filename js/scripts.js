@@ -1,7 +1,7 @@
+/*
+Ejemplo para cargar el módulo  modulo-utilidades
 import { recortar } from './modulo-utilidades.js';
-
-//import { sayHelloInEnglish, sayHelloInSpanish } from './mi-modulo.js';
-//alert(sayHelloInEnglish());
+*/
 
 document.getElementById("enviar").addEventListener("click",function(e){
    var nombreSinrecortar = document.getElementById("nombre");
